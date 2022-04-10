@@ -1,0 +1,40 @@
+  .calculator {
+    padding: 20px;
+    backgrund-color:white;
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+   }
+   body>h1{
+      text-align:center;
+      color:teal;
+      font-family:arial;
+      font-size:40px;
+   }
+   .display-box {
+    font-family: arial;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    color: black;
+    border-radius: 5px;
+    width:260px;
+    padding:20px;
+   }
+   .button {
+    font-family: arial;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    color:  black;
+    width: 60px;
+    border-radius: 5px;
+    height:60px;
+    outline: none;
+    font-size:30px;
+   }
+   .button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+   }
